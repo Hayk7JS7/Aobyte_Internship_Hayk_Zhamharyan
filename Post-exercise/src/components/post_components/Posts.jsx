@@ -38,7 +38,7 @@ class Posts extends Component {
     state = { posts: posts }
     render() {
         return (
-            <Box sx={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center', gap: '4rem'}}>
+            <Box sx={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', alignItems: 'center', gap: '4rem', marginTop: '7rem'}}>
                 {this.state.posts.map((post, i) => {
                     return (
                         <Card key={post.id}>

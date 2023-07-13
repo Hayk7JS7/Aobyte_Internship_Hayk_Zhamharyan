@@ -50,7 +50,6 @@ class MyPool extends Component {
 
   render() {
     const { columns } = this.state;
-    {console.log(this.state.pool)}
     return (
       <Box
         sx={{
